@@ -1,0 +1,108 @@
+def principal()
+{
+int N;
+int I;
+int Total;
+int Dados;
+string Nome;
+string Status;
+float Media;
+N = 10;
+I = 0;
+Total = 0;
+Dados = new int [10];
+Nome = "entrada";
+Status = "inicio";
+Media = 0.0;
+print Nome;
+read N;
+for(I = 0; I < N; I = I + 1)
+{
+Dados[I] = I + 1;
+Total = Total + Dados[I];
+}
+if (Total == 0)
+{
+Status = "vazio";
+print Status;
+}
+else
+{
+Status = "processado";
+print Status;
+}
+Media = Total / N;
+print Media;
+print Dados[0];
+print Dados[1];
+print Dados[2];
+print Dados[3];
+print Dados[4];
+print Dados[5];
+print Dados[6];
+print Dados[7];
+print Dados[8];
+print Dados[9];
+I = 0;
+Dados[0] = Dados[0] + 1;
+Dados[1] = Dados[1] + 1;
+Dados[2] = Dados[2] + 1;
+Dados[3] = Dados[3] + 1;
+Dados[4] = Dados[4] + 1;
+Dados[5] = Dados[5] + 1;
+Dados[6] = Dados[6] + 1;
+Dados[7] = Dados[7] + 1;
+Dados[8] = Dados[8] + 1;
+Dados[9] = Dados[9] + 1;
+Total = Total + Dados[0];
+Total = Total + Dados[1];
+Total = Total + Dados[2];
+Total = Total + Dados[3];
+Total = Total + Dados[4];
+Total = Total + Dados[5];
+Total = Total + Dados[6];
+Total = Total + Dados[7];
+Total = Total + Dados[8];
+Total = Total + Dados[9];
+if (Total > 50)
+{
+print "maior";
+}
+else
+{
+print "menor";
+}
+read Dados[0];
+read Dados[1];
+read Dados[2];
+read Dados[3];
+read Dados[4];
+read Dados[5];
+read Dados[6];
+read Dados[7];
+read Dados[8];
+read Dados[9];
+print Dados[0];
+print Dados[1];
+print Dados[2];
+print Dados[3];
+print Dados[4];
+print Dados[5];
+print Dados[6];
+print Dados[7];
+print Dados[8];
+print Dados[9];
+Status = "fim";
+print Status;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+return;
+}

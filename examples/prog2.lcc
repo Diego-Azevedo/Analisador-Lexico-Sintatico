@@ -1,0 +1,118 @@
+def soma(int A, int B)
+{
+int R;
+R = A + B;
+print R;
+return;
+}
+def multiplica(int A, int B)
+{
+int R;
+R = A * B;
+print R;
+return;
+}
+def principal()
+{
+int A;
+int B;
+int C;
+int D;
+int E;
+int F;
+int G;
+int H;
+int I;
+int J;
+A = 1;
+B = 2;
+C = 3;
+D = 4;
+E = 5;
+F = 6;
+G = 7;
+H = 8;
+I = 9;
+J = 10;
+A = A + B;
+B = B + C;
+C = C + D;
+D = D + E;
+E = E + F;
+F = F + G;
+G = G + H;
+H = H + I;
+I = I + J;
+J = J + A;
+A = A * 2;
+B = B * 3;
+C = C * 4;
+D = D * 5;
+E = E * 6;
+F = F / 2;
+G = G / 3;
+H = H / 4;
+I = I % 5;
+J = J % 6;
+A = + A;
+B = - B;
+C = C + A * D;
+D = D + B * E;
+E = E + C * F;
+F = F + D * G;
+G = G + E * H;
+H = H + F * I;
+I = I + G * J;
+J = J + H * A;
+if (A < B)
+{
+print A;
+}
+else
+{
+print B;
+}
+if (C <= D)
+{
+print C;
+}
+else
+{
+print D;
+}
+if (E > F)
+{
+print E;
+}
+else
+{
+print F;
+}
+if (G >= H)
+{
+print G;
+}
+else
+{
+print H;
+}
+if (I != J)
+{
+print I;
+}
+else
+{
+print J;
+}
+A = soma(A, B);
+B = soma(C, D);
+C = soma(E, F);
+D = multiplica(G, H);
+E = multiplica(I, J);
+print A;
+print B;
+print C;
+print D;
+print E;
+return;
+}

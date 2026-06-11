@@ -1,0 +1,104 @@
+def principal()
+{
+int A[100];
+int I;
+int S;
+I = 0;
+S = 0;
+for(I = 0; I < 20; I = I + 1)
+{
+A[I] = I * 2;
+S = S + A[I];
+}
+if (S > 0)
+{
+print S;
+}
+else
+{
+print 0;
+}
+A[0] = 0;
+A[1] = 1;
+A[2] = 2;
+A[3] = 3;
+A[4] = 4;
+A[5] = 5;
+A[6] = 6;
+A[7] = 7;
+A[8] = 8;
+A[9] = 9;
+A[10] = 10;
+A[11] = 11;
+A[12] = 12;
+A[13] = 13;
+A[14] = 14;
+A[15] = 15;
+A[16] = 16;
+A[17] = 17;
+A[18] = 18;
+A[19] = 19;
+S = S + A[0];
+S = S + A[1];
+S = S + A[2];
+S = S + A[3];
+S = S + A[4];
+S = S + A[5];
+S = S + A[6];
+S = S + A[7];
+S = S + A[8];
+S = S + A[9];
+S = S + A[10];
+S = S + A[11];
+S = S + A[12];
+S = S + A[13];
+S = S + A[14];
+S = S + A[15];
+S = S + A[16];
+S = S + A[17];
+S = S + A[18];
+S = S + A[19];
+print A[0];
+print A[1];
+print A[2];
+print A[3];
+print A[4];
+print A[5];
+print A[6];
+print A[7];
+print A[8];
+print A[9];
+print A[10];
+print A[11];
+print A[12];
+print A[13];
+print A[14];
+print A[15];
+print A[16];
+print A[17];
+print A[18];
+print A[19];
+I = 0;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+I = I + 1;
+S = S + I;
+S = S - 1;
+S = S + 2;
+S = S - 3;
+S = S + 4;
+S = S - 5;
+S = S + 6;
+S = S - 7;
+S = S + 8;
+S = S - 9;
+print S;
+return;
+}
